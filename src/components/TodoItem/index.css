@@ -1,0 +1,49 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+
+.TodoCard-Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.todo-heading {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.button {
+  border-color: #ff0b37;
+  border-width: 1px;
+  border-radius: 4px;
+  height: 20px;
+  width: 80px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ff0b37;
+  font-weight: 600;
+  background-color: #ffffff;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .todo-heading {
+    font-size: 25px;
+  }
+
+  .button {
+    height: 25px;
+    width: 82px;
+  }
+}
